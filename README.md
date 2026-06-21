@@ -1,4 +1,3 @@
-```markdown
 # OrchestClaim — Damage Claim Verification System
 
 Multi-modal evidence review system that verifies damage claims using images, claim conversations, user history, and evidence requirements. Built for the HackerRank Orchestrate hackathon.
@@ -87,4 +86,3 @@ code/                           # All source code lives here
 - **Retry**: Exponential backoff (3 attempts) on API errors; no retry on `400` invalid request errors
 - **Throttle**: 1.5s between calls to stay under TPM limits
 - **Risk flags**: Derived from image quality assessment, claim mismatch detection, and user history analysis
-```
